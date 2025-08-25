@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Echo — Terms & Conditions</title>
+  <meta name="description" content="Terms & Conditions for Echo app." />
+  <style>
+    :root{
+      --bg: #0f1115;
+      --card: #151822;
+      --text: #e7e9ee;
+      --muted: #aab0bf;
+      --accent: #6ea8fe;
+      --accent-2: #22c55e;
+      --danger: #ef4444;
+      --border: #262a36;
+      --link: #8ab4ff;
+      --maxw: 920px;
+    }
+
+    html, body { height: 100%; }
+    body{
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 1200px at 10% -10%, #1a2040 0%, var(--bg) 40%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .wrap{
+      max-width: var(--maxw);
+      margin: 48px auto;
+      padding: 0 20px 64px;
+    }
+
+    header{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+
+    .app-badge{ display:inline-flex; align-items:center; gap:10px; padding:6px 12px; border:1px solid var(--border); border-radius:999px; background:#0c0f17; color:var(--muted); font-weight:600; letter-spacing:.2px; }
+    .app-dot{ width:8px; height:8px; border-radius:50%; background:var(--accent); display:inline-block; box-shadow:0 0 16px var(--accent);}
+
+    h1{ font-size: clamp(28px, 4vw, 40px); margin: 12px 0 6px; letter-spacing:.3px; }
+    .subtitle{ color: var(--muted); margin: 0 0 12px; }
+    .meta{ color: var(--muted); font-size: 14px; }
+
+    .notice{
+      margin-top: 18px; padding: 14px 16px; border:1px dashed var(--border); border-radius: 14px; background: #10131c;
+    }
+    .notice strong{ color: var(--accent-2); }
+
+    nav.toc{
+      margin: 28px 0 18px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      background: #0f1421;
+    }
+    .toc h2{ font-size: 16px; margin: 0 0 8px; color: var(--muted); }
+    .toc ul{ margin: 0; padding-left: 18px; columns: 2; column-gap: 32px; }
+    .toc a{ color: var(--link); text-decoration: none; }
+    .toc a:hover{ text-decoration: underline; }
+
+    section{
+      margin-top: 28px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 12px 24px rgba(0,0,0,.25);
+    }
+    section h2{ margin-top: 0; font-size: 22px; }
+
+    p, li{ color: #d5d9e3; }
+
+    ul{ padding-left: 20px; }
+
+    code.inline{ background:#0d1220; border:1px solid var(--border); padding:2px 6px; border-radius:8px; font-size: 90%; }
+
+    a{ color: var(--link); }
+
+    footer{ margin-top: 36px; color: var(--muted); font-size: 14px; text-align: center; }
+
+    /* Print styles */
+    @media print{
+      body{ background:#fff; color:#000; }
+      header, section, nav.toc{ box-shadow: none; background: #fff; border-color: #e5e7eb; }
+      a{ color: #000; text-decoration: underline; }
+      .app-badge{ border-color:#e5e7eb; background:#fff; color:#000; }
+      .notice{ background: #fafafa; border-color: #e5e7eb; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="app-badge"><span class="app-dot"></span> Echo — Terms & Conditions</span>
+      <h1>Terms and Conditions</h1>
+      <p class="subtitle">Please read these terms carefully before using Echo.</p>
+      <p class="meta"><strong>Effective Date:</strong> <span aria-label="Effective date">27-08-2025</span> &nbsp;|&nbsp; <strong>App Name:</strong> Echo &nbsp;|&nbsp; <strong>Developer:</strong> [Your Company / Developer Name]</p>
+      <div class="notice" role="note">
+        <strong>Important:</strong> Echo collects your device location using a foreground service that may run while the app is not actively in use. The chat feature is <em>not</em> end‑to‑end encrypted and is moderated to prevent abuse.
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#eligibility">1. Eligibility</a></li>
+        <li><a href="#license">2. Your License to Use Echo</a></li>
+        <li><a href="#location">3. Location Data</a></li>
+        <li><a href="#content">4. User Content & Posting Rules</a></li>
+        <li><a href="#chat">5. Chat System & Moderation</a></li>
+        <li><a href="#acceptable-use">6. Acceptable Use</a></li>
+        <li><a href="#third-party">7. Data Storage & Third‑Party Services</a></li>
+        <li><a href="#ip">8. Intellectual Property</a></li>
+        <li><a href="#termination">9. Account Suspension/Termination</a></li>
+        <li><a href="#warranty">10. Disclaimer of Warranties</a></li>
+        <li><a href="#liability">11. Limitation of Liability</a></li>
+        <li><a href="#indemnity">12. Indemnification</a></li>
+        <li><a href="#changes">13. Changes to These Terms</a></li>
+        <li><a href="#governing-law">14. Governing Law & Dispute Resolution</a></li>
+        <li><a href="#contact">15. Contact</a></li>
+        <li><a href="#privacy">16. Privacy Policy</a></li>
+      </ul>
+    </nav>
+
+    <section id="eligibility">
+      <h2>1. Eligibility</h2>
+      <p>You must be at least 18 years old, or the minimum legal age in your jurisdiction, to use Echo. By accessing or using Echo, you represent and warrant that you meet this requirement and have the legal capacity to enter into these Terms.</p>
+    </section>
+
+    <section id="license">
+      <h2>2. Your License to Use Echo</h2>
+      <p>Subject to your compliance with these Terms, we grant you a limited, non‑exclusive, non‑transferable, revocable license to download and use the App on a device that you own or control for personal, non‑commercial purposes.</p>
+    </section>
+
+    <section id="location">
+      <h2>3. Location Data</h2>
+      <ul>
+        <li>Echo collects device location data using a <strong>foreground service</strong> that can continue to run while the App is not actively in use. This enables features such as nearby discovery, safety, and personalized experiences.</li>
+        <li>By installing and using Echo, you <strong>consent to continuous location tracking</strong> as described here and in the Privacy Policy.</li>
+        <li>You can stop or limit location access via your device settings at any time. Certain features may not function properly without location access.</li>
+        <li>We implement safeguards to protect location data; however, no method of transmission or storage is 100% secure.</li>
+      </ul>
+    </section>
+
+    <section id="content">
+      <h2>4. User Content & Posting Rules</h2>
+      <p>Echo enables you to post text, images, and other media ("User Content"). You retain ownership of your User Content. By submitting User Content, you grant Echo a worldwide, non‑exclusive, royalty‑free license to host, store, reproduce, modify, adapt, publish, translate, display, and distribute such content within the App for the purpose of operating, improving, and promoting the service.</p>
+      <p>You agree that you will not post or share any content that:</p>
+      <ul>
+        <li>Is illegal, defamatory, hateful, harassing, exploitative, or otherwise abusive;</li>
+        <li>Contains sexual content involving minors or non‑consensual acts, or solicits such content;</li>
+        <li>Infringes any intellectual property or privacy rights of others, including copyright and publicity rights;</li>
+        <li>Contains spam, scams, malware, or deceptive or fraudulent information;</li>
+        <li>Depicts graphic violence or threats of violence;</li>
+        <li>Violates any applicable law or regulation.</li>
+      </ul>
+      <p>We may remove or restrict access to User Content that we believe violates these Terms or applicable law. Repeated violations may lead to account suspension or termination.</p>
+    </section>
+
+    <section id="chat">
+      <h2>5. Chat System & Moderation</h2>
+      <ul>
+        <li>The chat feature in Echo is <strong>not end‑to‑end encrypted</strong>.</li>
+        <li>Messages may be processed by automated systems and, where necessary, reviewed by authorized personnel to detect, prevent, or address abuse, harassment, illegal activity, or violations of these Terms.</li>
+        <li>By using the chat feature, you consent to such moderation. Do not share sensitive personal information in chat that you would not want to be reviewed.</li>
+      </ul>
+    </section>
+
+    <section id="acceptable-use">
+      <h2>6. Acceptable Use</h2>
+      <ul>
+        <li>Do not use Echo for any unlawful purpose or to promote illegal activities.</li>
+        <li>Do not attempt to interfere with or compromise the integrity or security of the App or any networks connected to it, including via reverse engineering or unauthorized access.</li>
+        <li>Do not impersonate any person or entity or misrepresent your affiliation with a person or entity.</li>
+        <li>Do not collect or harvest any personally identifiable information from the App, except as permitted by law and our policies.</li>
+      </ul>
+    </section>
+
+    <section id="third-party">
+      <h2>7. Data Storage & Third‑Party Services</h2>
+      <p>Echo uses third‑party services, including <strong>Google Firebase</strong>, to store and process data such as location information, posts, and chat messages. Your use of the App is subject to those third‑party terms and privacy policies in addition to these Terms. We are not responsible for third‑party services, outages, or data handling outside our reasonable control.</p>
+    </section>
+
+    <section id="ip">
+      <h2>8. Intellectual Property</h2>
+      <p>The App, including its software, design, logos, and content (excluding User Content), is owned by us or our licensors and is protected by intellectual property laws. Except as expressly permitted, you may not copy, modify, distribute, sell, or lease any part of our App.</p>
+    </section>
+
+    <section id="termination">
+      <h2>9. Account Suspension/Termination</h2>
+      <p>We may suspend or terminate your access to the App at any time if we believe you have violated these Terms, engaged in fraudulent or illegal activity, or created risk or possible legal exposure for us or other users.</p>
+    </section>
+
+    <section id="warranty">
+      <h2>10. Disclaimer of Warranties</h2>
+      <p>The App is provided on an <em>"as is"</em> and <em>"as available"</em> basis without warranties of any kind, whether express, implied, or statutory, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non‑infringement. We do not warrant that the App will be uninterrupted, secure, or error‑free.</p>
+    </section>
+
+    <section id="liability">
+      <h2>11. Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, in no event shall we or our affiliates, licensors, or service providers be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from your access to or use of (or inability to access or use) the App.</p>
+    </section>
+
+    <section id="indemnity">
+      <h2>12. Indemnification</h2>
+      <p>You agree to defend, indemnify, and hold harmless us and our affiliates, officers, employees, partners, and agents from and against any claims, liabilities, damages, losses, and expenses, including reasonable attorney’s fees, arising out of or in any way connected with your use of the App or your violation of these Terms.</p>
+    </section>
+
+    <section id="changes">
+      <h2>13. Changes to These Terms</h2>
+      <p>We may update these Terms from time to time. If we make material changes, we will provide notice within the App or by other reasonable means. Your continued use of the App after the effective date of any changes constitutes your acceptance of the updated Terms.</p>
+    </section>
+
+    <section id="governing-law">
+      <h2>14. Governing Law & Dispute Resolution</h2>
+      <p>These Terms are governed by the laws of <strong>Indian Jurisdiction</strong>, without regard to its conflict of law principles. Any disputes arising out of or relating to these Terms or the App shall be resolved exclusively in the courts located in <strong>[Insert Venue]</strong>, unless applicable law provides otherwise.</p>
+    </section>
+
+    <section id="contact">
+      <h2>15. Contact</h2>
+      <p>If you have questions or concerns about these Terms, please contact us at <a href="mailto:echosocialconnect@gmail.com">echosocialconnect@gmail.com</a></p>
+    </section>
+
+    <section id="privacy">
+      <h2>16. Privacy Policy</h2>
+      <p>Your use of Echo is also governed by our <a href="privacy_policies.html" rel="noopener">Privacy Policy</a>, which describes how we collect, use, and share your information, including location data and chat content used for moderation. Please review it carefully. If you distribute the App via the Google Play Store, ensure that your Privacy Policy URL is provided in your store listing.</p>
+    </section>
+
+    <footer>
+      <p>Google Firebase is a trademark of Google LLC. All other trademarks are the property of their respective owners.</p>
+      <p>© <span aria-label="year">2025</span> Echo. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
